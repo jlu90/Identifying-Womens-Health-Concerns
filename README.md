@@ -42,10 +42,10 @@ Once the data was cleaned, a custom list of stop words was defined, and posts we
 Prior to modeling, a document term matrix was created using the tf-idf vectorizer by ***sklearn***. (Tf-idf creates a bag of words with a weight for each word that is based upon the number of times a word appears in a post and the number of posts that it appears in. If a word appears in many documents, it will receive a low ranking.) If a ***gensim*** model was used, the document term matrix was further processed to create a ***gensim*** corpus. 
 
 ### Topic Modeling
-NOT YET COMPLETED - I will update this once I have finalized the models. I think that I will most likely have KMeans Clustering and LDA. I might also try Hierarchical Clustering and NNM.
+NOT YET COMPLETED - I will update this once I have finalized the models. I think that I will most likely have KMeans Clustering and LDA. I might also try Hierarchical Clustering and NNMF.
 
-## Contents of Repository (Will update once the code is final)
-**Code**  
+## Contents of Repository
+**Code**: Data Collection, Data Cleaning and Preprocessing, Project Notebook  
 **Assets**  
 **Presentation**   
 **Note**: The data files for this project are too large to store on GitHub. Data is available upon request. 
