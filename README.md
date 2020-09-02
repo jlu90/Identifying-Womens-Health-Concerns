@@ -20,7 +20,7 @@ In this project, **I will use natural language processing and unsupervised techn
 ## Executive Summary
 
 ### Data Collection
-Data was collected on August 7, 2020 using the [Pushshift Reddit API]. This API allows for easy aggregation of posts to Reddit.com. For each health domain, data was collected that spanned from August 7, 2020 to February 16, 2019 (a period of approximately 17.5 months).    
+Data was collected on August 7, 2020 using the [Pushshift Reddit API](https://github.com/pushshift/api). This API allows for easy aggregation of posts from Reddit.com. For each health domain, data was collected that spanned from August 7, 2020 to February 16, 2019 (a period of approximately 17.5 months).    
 
 **1. General Women's Health Data:**  
 * Posts relating to general women's health concerns were collected from [r/WomensHealth](https://www.reddit.com/r/WomensHealth/), [r/obgyn](https://www.reddit.com/r/obgyn/), and [r/thegirlsurvivalguide](https://www.reddit.com/r/TheGirlSurvivalGuide/). 
