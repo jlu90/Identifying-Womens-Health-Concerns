@@ -35,7 +35,7 @@ Data was collected on August 7, 2020 using the [Pushshift Reddit API]. This API 
 * This resulted in a total of 51,674 posts from 21,585 unique users.
 
 ### Data Cleaning and Preprocessing
-Once data was in hand, all data was cleaned to check for missing values and inappropriate data types. HTML tags, Reddit-specific tags (e.g. "[removed", "[deleted]"), URLs, and digits were removed from the text. 
+Once data was in hand, all data was cleaned to check for missing values and inappropriate data types. HTML tags, Reddit-specific tags (e.g. "[removed]", "[deleted]"), URLs, and digits were removed from the text. 
 
 Once the data was cleaned, a custom list of stop words was defined, and posts were lemmatized using ***spaCy***. (Lemmatization refers to the process of reducing a word to its base root.) 
 
