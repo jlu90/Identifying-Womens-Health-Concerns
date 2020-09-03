@@ -1,6 +1,6 @@
-![woman](assets/woman_1.png) 
+ <h1><img src=https://i.imgur.com/QPFf1hw.png> Topic Modeling to Identify Women's Health Concerns on Online Forums</h1>
 
-# Topic Modeling to Identify Women's Health Concerns on Online Forums
+# 
 
 **Author:** Jocelyn Lutes
 
