@@ -1,6 +1,6 @@
- <h1><img src=https://i.imgur.com/QPFf1hw.png> Topic Modeling to Identify Women's Health Concerns on Online Forums</h1>
+ <h1><img src=https://i.imgur.com/QPFf1hw.png style="float: left; margin: 10px;"> 
 
-# 
+# Topic Modeling to Identify Women's Health Concerns on Online Forums
 
 **Author:** Jocelyn Lutes
 
@@ -42,7 +42,7 @@ Once the data was cleaned, a custom list of stop words was defined, and posts we
 Prior to modeling, a document term matrix was created using the tf-idf vectorizer by ***sklearn***. (Tf-idf creates a bag of words with a weight for each word that is based upon the number of times a word appears in a post and the number of posts that it appears in. If a word appears in many documents, it will receive a low ranking.) If a ***gensim*** model was used, the document term matrix was further processed to create a ***gensim*** corpus. 
 
 ### Topic Modeling
-NOT YET COMPLETED - I will update this once I have finalized the models. I think that I will most likely have KMeans Clustering and LDA. I might also try Hierarchical Clustering and NNMF.
+Topics of concern related to women's health were identified using K-Means Clustering and Latent Dirichlet Allocation (LDA). For each model, the number of topics chosen are believed to represent a balance between a scoring metric (Silhouette Score for K-Means and UMass Cohesion for LDA), topic separation (as illustrated by pyLDAvis), and interpretability. 
 
 ## Contents of Repository
 **Code**: Data Collection, Data Cleaning and Preprocessing, Project Notebook  
