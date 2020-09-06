@@ -15,7 +15,7 @@ In order to eliminate any gaps in reporting and to gain a more-representative pi
 ## Problem Statement
 In order to ensure that any resources that are provided in the application are relevant to potential users, the project leads have proposed that we use an open-ended survey or multiple focus groups to identify several women's health concerns. However, surveys and focus groups can be costly in terms of both time and money, and the project is operating on a limited budget and needs to be completed as quickly as possible. Additionally, it is possible that the small number of women who would be invited to join a focus group or to receive a survey would not be representative of the larger population of women who could opt to particpate in the research. Therefore, the data science team was tasked to uncover an alternate way to identify women's health concerns.
 
-In this project, **I will use natural language processing and unsupervised techniques, such as clustering and topic modeling, to identify women's health concerns from posts in online forums.** Specific concerns will be identified for general women's health, fertility and pregnancy, and postpartum/early parenthood.
+In this project, **I will use natural language processing and unsupervised techniques, such as clustering and topic modeling, to identify women's health concerns from posts in online forums.** Specific concerns will be identified for general women's health and fertility and pregnancy.
 
 ## Executive Summary
 
@@ -30,9 +30,6 @@ Data was collected on August 7, 2020 using the [Pushshift Reddit API](https://gi
 * Posts relating to fertility and pregnancy were collected from [r/TryingForABaby](https://www.reddit.com/r/TryingForABaby/), [r/pregnant](https://www.reddit.com/r/pregnant/), and [r/BabyBumps]https://www.reddit.com/r/BabyBumps/). 
 * This resulted in a total of 98,138 posts from 35,127 unique users.
 
-**3. Postpartum and Early Parenthood Data:**
-* Posts relating to the postpartum period and early parenthood were collected from [r/beyondthebump](https://www.reddit.com/r/beyondthebump/), [r/postpartumdepression](https://www.reddit.com/r/postpartumdepression/), and [r/breastfeeding](https://www.reddit.com/r/breastfeeding/).
-* This resulted in a total of 51,674 posts from 21,585 unique users.
 
 ### Data Cleaning and Preprocessing
 Once data was in hand, all data was cleaned to check for missing values and inappropriate data types. HTML tags, Reddit-specific tags (e.g. "[removed]", "[deleted]"), URLs, and digits were removed from the text. 
