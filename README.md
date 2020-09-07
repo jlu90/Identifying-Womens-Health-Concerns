@@ -39,13 +39,18 @@ Once the data was cleaned, a custom list of stop words was defined, and posts we
 Prior to modeling, a document term matrix was created using the tf-idf vectorizer by ***sklearn***. (Tf-idf creates a bag of words with a weight for each word that is based upon the number of times a word appears in a post and the number of posts that it appears in. If a word appears in many documents, it will receive a low ranking.) If a ***gensim*** model was used, the document term matrix was further processed to create a ***gensim*** corpus. 
 
 ### Topic Modeling
-Topics of concern related to women's health were identified using K-Means Clustering and Latent Dirichlet Allocation (LDA). For each model, the number of topics chosen are believed to represent a balance between a scoring metric (Silhouette Score for K-Means and UMass Cohesion for LDA), topic separation (as illustrated by pyLDAvis), and interpretability. 
+Topics of concern related to women's health were identified using K-Means Clustering and Latent Dirichlet Allocation (LDA). For each model, the number of clusters or topics chosen are believed to represent a balance between a scoring metric (Silhouette Score for K-Means and UMass Cohesion for LDA), topic separation (as illustrated by pyLDAvis for LDA), and interpretability. 
 
 ## Contents of Repository
-**Code**: Data Collection, Data Cleaning and Preprocessing, Project Notebook  
-**Assets**  
-**Presentation**   
-**Note**: The data files for this project are too large to store on GitHub. Data is available upon request. 
+* **Assets**   
+* **Code**:
+    * Data Collection
+    * Main Project Notebook (LDA)
+    * Determining the Optimum Number of Topics/Clusters
+    * Supplemental Modeling (K-Means)
+* **Data**   
+* **Presentation**   
+
 
 ## Data Dictionary
 The data for all three health domains follows the following format:
