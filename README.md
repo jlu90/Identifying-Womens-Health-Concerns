@@ -63,7 +63,64 @@ total_text| string| Original text of the post
 lemma_text| string| Text that has been lemmatized using spaCy
 sentiment_score| float| Normalized sentiment polarity of post, ranging from -1 (Negative) to 1 (Positive) 
 
-## Conclusions and Recommendations
+## Product Recommendations
+
+Overall, these analyses have shown that concerns related to women's health at various life stages can be identified using topic modeling techniques, such as Latent Dirichlet Allocation. 
+
+Based on the identified clusters, I recommend that the following areas of women's health would benefit from having expert-provided advice and should therefore be considered for inclusion in the mobile application:
+
+**For Non-Pregnant Users**
+1. Menstrual Cycle Abnormalities
+2. Feminine Hygiene Products
+3. Birth Control Options
+4. Symptoms of Infections
+5. Common Gynecological Issues (Including pains)
+6. Fertility Options
+
+**For Pregnant Users**
+1. Determination of pregnancy and early pregnancy symptoms
+2. Coping with pregnancy life changes
+3. Dealing with nausea and vomiting during pregnancy and sleep disruptions
+4. Obstetrics Appointments (Including pain and body changes)
+5. What to expect during labor and delivery
+
+
+Understanding the serious nature of these areas of concern, for any pain, gynecological and obstetric issues, or mental health struggles, we will also emphasize that any content within the mobile application is not meant to replace discussions with a health care provider and will encourage users to seek help from their physician. 
+
+## Conclusion
+
+* This project provides proof-of-concept that, given the correct data, topic modeling with Latent Dirichlet Allocation can provide important insights into information that is normally gained through user surveys or focus groups and could become an important step in product development. 
+
+* K-Means Clustering was not a successful technique for identifying topics in this data.
+
+* In comparison to focus groups or surveys, this project was able to analyze data from 19,753 unique users in the General Women's Health Data and 35,127 unique users in the Fertilty and Pregnancy data. Collecting the same quantity of data using surveys or focus groups would likely cost more financially and in terms of time.
+
+* The biggest limitation to topic modeling is interpretation of clusters, but adequate research and background knowledge can facilitate this process.
+
+* Next Steps:
+    * Topic Modeling of concerns during Postpartum/Early Parenthood period
+    * Identification of concerns for data collected pre- and post-COVID-19
+    * Topic modeling within previously-identified topics
 
 ## References
+
+[American Gut](https://msystems.asm.org/content/3/3/e00031-18)  
+[Citizen Science](https://www.citizenscience.gov/about/#)  
+[DNTS](https://www.dntshome.org)  
+[First Major Results of “American Gut Project” Published](https://anesthesiology.duke.edu/?p=846744)  
+[Latent Dirichlet Allocation](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf)  
+[Stemming and Lemmatization](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html)  
+
+### Helpful Tutorials and Resources
+[Coherence Scores - StackOverflow](https://stackoverflow.com/questions/54762690/coherence-score-0-4-is-good-or-bad)  
+[Document Clustering with Python by Brandon Rose](http://brandonrose.org/clustering#Hierarchical-document-clustering)  
+[KMeans Text Clustering by Learn Python](https://pythonprogramminglanguage.com/kmeans-text-clustering/)  
+[Natural Language Processing in Action by Hobson Lane](https://www.amazon.com/gp/product/1617294632/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)  
+[NLP in Python Tutorial by A Dash of Data](https://github.com/adashofdata/nlp-in-python-tutorial)  
+[Natural Language Processing with Python by Jose Portilla](https://www.udemy.com/course/nlp-natural-language-processing-with-python/)  
+[Topic Modeling with Gensim by Machine Learning Plus](https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/)   
+
+
+
+
 
