@@ -53,7 +53,7 @@ Topics of concern related to women's health were identified using K-Means Cluste
 
 
 ## Data Dictionary
-The data for all three health domains follows the following format:
+The cleaned and preprocessed data for both domains follows the following format:
 Column | Data Type| Description
 -|-|-
 subreddit| string| Name of subreddit from which the post was obtained
