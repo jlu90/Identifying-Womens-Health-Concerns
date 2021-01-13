@@ -36,7 +36,7 @@ Once data was in hand, all data was cleaned to check for missing values and inap
 
 Once the data was cleaned, a custom list of stop words was defined, and posts were lemmatized using ***spaCy***. (Lemmatization refers to the process of reducing a word to its base root.) 
 
-Prior to modeling, a document term matrix was created using the tf-idf vectorizer by ***Sklearn***. (Tf-idf creates a bag of words with a weight for each word that is based upon the number of times a word appears in a post and the number of posts that it appears in. If a word appears in many documents, it will receive a low ranking.) If a ***Gensim*** model was used, the document term matrix was further processed to create a ***Gensim*** corpus. 
+Prior to modeling, a document term matrix was created using the tf-idf vectorizer by ***Scikit-Learn***. (Tf-idf creates a bag of words with a weight for each word that is based upon the number of times a word appears in a post and the number of posts that it appears in. If a word appears in many documents, it will receive a low ranking.) If a ***Gensim*** model was used, the document term matrix was further processed to create a ***Gensim*** corpus. 
 
 ### Topic Modeling
 Topics of concern related to women's health were identified using K-Means Clustering and Latent Dirichlet Allocation (LDA). For each model, the number of clusters or topics chosen are believed to represent a balance between a scoring metric (Silhouette Score for K-Means and UMass Cohesion for LDA), topic separation (as illustrated by pyLDAvis for LDA), and interpretability. 
