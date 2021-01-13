@@ -27,7 +27,7 @@ Data was collected on August 7, 2020 using the [Pushshift Reddit API](https://gi
 * This resulted in a total of 31,385 posts from 19,753 unique users.
 
 **2. Fertility and Pregnancy Data:**  
-* Posts relating to fertility and pregnancy were collected from [r/TryingForABaby](https://www.reddit.com/r/TryingForABaby/), [r/pregnant](https://www.reddit.com/r/pregnant/), and [r/BabyBumps]https://www.reddit.com/r/BabyBumps/). 
+* Posts relating to fertility and pregnancy were collected from [r/TryingForABaby](https://www.reddit.com/r/TryingForABaby/), [r/pregnant](https://www.reddit.com/r/pregnant/), and [r/BabyBumps](https://www.reddit.com/r/BabyBumps/). 
 * This resulted in a total of 98,138 posts from 35,127 unique users.
 
 
